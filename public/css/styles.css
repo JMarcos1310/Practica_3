@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #17304d;
+}
+
+/* -----------------------------------header------------------------*/
+
+header {
+    background-color: rgb(0, 5, 17);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Estilo para el título del encabezado */
+header h1 {
+    margin: 0;
+}
+
+/* Estilo para la barra de navegación dentro del encabezado */
+header nav {
+    margin-top: 10px;
+}
+
+/* Estilo para los enlaces de navegación */
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Cambiar color de enlace al pasar el mouse sobre él */
+header nav a:hover {
+    color: #00ffd5;
+}
+
+.seccion-con-fondo {
+    position: relative;
+    background-image: url('https://imgs.search.brave.com/kKlFiJw_ZKdunLmjz0pshJzpzjbganHIVvbh_6gwC64/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDE4NzQx/NjMuanBn');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.capa-oscura {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(3, 3, 3, 0.603);
+}
+
+.contenido {
+    z-index: 1;
+}
+
+.formulario h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.formulario p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sect-categorias {
+    margin-top: 30%;
+}
